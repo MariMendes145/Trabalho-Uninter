@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UFT-8">
+  <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marianne Mendes">
+  <meta name=" description" content=" Projeto Uninter- Portifólio.">
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Conheça Marianne Mendes</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/programacaoWeb/assets/css/estilo.css">
+</head>
+
+<body>
+  <header>
+    <!--Menu de navegação, vc clica nele e leva as sessões-->
+    <nav aria-label="primaria">
+      <ul>
+        <li><a href="#home"> Home </a></li>
+        <li><a href="#sobre">Sobre </a></li>
+        <li><a href="#conhecimentos"> Conhecimentos</a></li>
+        <li><a href="#projetos"> Projetos</a></li>
+        <li><a href="#contato"> Contatos</a></li>
+
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main" id="home">
+    <!--Seção para mostrar quem sou-->
+    <h1 id="introducao">Conheça um pouco sobre mim</h1>
+    <div class="perfil">
+      <img class="perfil__foto" alt="foto de Marianne Mendes" src="/programacaoWeb/assets/imagens/mari-3 por 4.jpg">
+    </div>
+
+    <div class="introducao">
+      <h1 class=" perfil__nome"> Marianne Mendes </h1>
+      <p class="perfil__descricao">
+      <h1>Vida Pessoal<h2>
+          <p class="hobbies"> Sempre procuro fazer algo novo, algo me desafie, escolher TI foi uma delas!Tenho como hobbies: correr, ler livros, fazer arte marcial.</p>
+    </div>
+
+    <!--Seção para falar da transição de carreira-->
+    <section class="section" id="sobre">
+      <div class=" vida-pessoal">
+        <h2> Transição de Carreira</h2>
+        <p class="Sobre-1__descricao"> Iniciei minha transição de Carreira em 2022! Sou formada em Direito, exerci um tempo a profissão, estudei para concurso, trabalhei com conciliação e em um cartório. Vi que eu necessitava de mudanças na minha vida e decidi ir para área de TI, estudei um pouco de front end, um pouco de back end, salesforce e agora estou conhecendo a área de qualidade de software/testes. Finalmente consegui minha primeira experiência em TI, além dos mini-projetos que já fiz.</p>
+
+    </section>
+    <!--Seção para falar de meus conhecimentos-->
+    <section class="section" id="conhecimentos">
+      <div class="conhecimento">
+        <h2 class="Sobre-2"> Conhecimento</h2>
+        <p class="Sobre-2__descricao"> Tenho conhecimento intermediário em HTML,CSS e Javascript. Aprofundei meus conhecimentos em back end com Node.JS, no curso da Softex-PE.</p>
+        <p>Tenho conhecimento superficial em JAVA e phyton, pelas matérias pagas na faculdade na qual estudo, UNINTER. </p>
+        <p>Tenho conhecimentos em salesforce administrador e uma certificação básica da plataforma.</p>
+        <p> Tenho inglês avançado e espanhol intermediário.</p>
+      </div>
+    </section>
+    <!--alguns projetos que já fiz, links clicáveis-->
+    <section class="section" id="projetos">
+      <div class="algunsProjetos">
+        <h2 class="Sobre-3"> Projetos:</h2>
+        <ol>
+          <a class="linkProjeto" href="https://marimendes145.github.io/IniciandoNaProgramacao/">Programa Maria site Ada</a>
+          <a class="linkProjeto" href=" https://karolineplacidesmartins.github.io/Projeto_ExtensionistaII/index.html"> Trabalho Uninter- Colaboração de Marianne Mendes com Karoline e Erick Placides</a>
+          <a class="linkProjeto" href="https://github.com/MariMendes145/Softex-miniprojetos/tree/main/Projeto%20-%20API-REST">API REST</a>
+
+        </ol>
+      </div>
+    </section>
+    <section class="section" id="contato">
+      <div class="contact">
+        <!--Formulário para contato através de email-->
+        <h2>Contato:</h2>
+        <h3> Quer conhecer mais sobre meus trabalhos? Deixe sua mensagem!</h3>
+        <form>
+          <label for="nome">Nome:</label>
+          <input id="nome" type="text">
+
+          <label for="email">Email:</label>
+          <input id="email" type="email">
+
+          <label for="mensagem">Mensagem:</label>
+          <input id="mensagem" type="text">
+          <button id="botaoEnviar">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!--rodapé com links sobre linkedin, github e informação que foi criado por mim o site -->
+    <span class="footer__texto">
+      <img class="icone icone--texto" alt="estrela" src="/programacaoWeb/assets/icones/star.svg">
+      Feito por Marianne Mendes
+      <img class="icone icone--texto" alt="estrela" src="/programacaoWeb/assets/icones/star.svg">
+      Mais informações, acesse:
+      <a href="https://www.linkedin.com/in/mariannemendes/" target="_blank" class="header__link">
+        <img class="icone" alt="linkedin" src="/programacaoWeb/assets/icones/linkedin.svg">
+      </a>
+      <a href="https://github.com/MariMendes145?tab=repositories" target="_blank" class="header__link">
+        <img class="icone" alt="github" src="/programacaoWeb/assets/icones/github.svg">
+      </a>
+    </span>
+  </footer>
+  <script src="/programacaoWeb/assets/js/projetoUninter.js"></script>
+</body>
+
+</html>

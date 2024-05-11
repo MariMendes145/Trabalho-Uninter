@@ -1,1 +1,1 @@
-# Trabalho-Uninter
+Trabalho da disciplina de programação web.
